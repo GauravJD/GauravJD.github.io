@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tiny Hub - Design your website with Animate.css </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113903287-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113903287-1');
+    </script>
+    <!--gtag ends-->
+
+  </head>
+
+  <body id="page-top">
+     
+      
+      
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+      
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#services">Blog Posts</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#portfolio">How To</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center masthead col-xs-12">
+      <h1>TINY<br>HUB</h1>
+    </header>
+
+   
+      
+      
+    <!-- content-->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Design your website with Animate.css</h2>
+              <div class="lead mb-5 text-left">
+                  <p><b>Let me ask you a simple Question!! What is actually an "Animation??".</b></p>
+
+                  <p>According to wikipedia <i>"Animation is a dynamic medium in which images or objects are manipulated to appear as moving images."</i> In simple words, many images are put together one after another, and then played at a fast speed to give the moving illusion. But come on!! we are coders!!! </p>
+
+                 <p>Well now a days challanges are tough. Every upcoming websites are filled with crazy animations. Hover effects, drop-down, navigation and much much more. It's a never ending list. I am not going to dive deeper in to this concept. So today in this post i'll talk about what is "Animate.css" and how to use it in your website. Let's get started.</p>
+                  
+                  <p><a href="https://daneden.github.io/animate.css/">Animate.css</a> is a cross-browser supported css library. The library has over 50 different animation effects. It's very easy to use and one of the major advantage is that you don't have to write long lines of codes. Simply download the Animate.css library and link it to your web pages.</p>
+
+                  <h3>1. Download Animate.css</h3>
+                  <p>Go to <a href="https://daneden.github.io/animate.css/">daneden.github.io/animate.css</a> and download animate.css. Create a new folder and paste it there. (It's a good practice to create folder for each project.)</p> <br>
+                  <a href="https://imgur.com/5fS3GX5"> <img id="shadow" class="img-fluid" src="https://i.imgur.com/5fS3GX5.png" alt="img"></a><br>
+
+                   <i class="caption text-muted">Animate.css main page</i> <br> <br><br>
+
+                   <p>On the Animate.css page you'll find a lot of animation effects. Try using some of them. But remember one thing, animate.css only work on page load. But if you want to make your webpages more dynamic, you have to add JavaScript as well. You don't have to master JavaScript for that, just the basics will work.</p><br>
+
+                   <h3>2. Write your HTML code</h3>
+                   <p>Let's write our simple html code.</p>
+      
+      <!--################################################-->
+                   <pre>
+          <xmp>
+    <!DOCTYPE html>
+    <html>
+    <head>
+                          
+    </head>
+       <body>
+        <div>
+
+          <h1>Amimating Text</h1>
+
+        </div>
+      </body>
+    </html>
+          </xmp>
+                   </pre>
+             <!--################################################-->
+
+
+                  <p>That's a simple code I've written. </p>
+
+                  <h3>3. Add some CSS</h3>
+                  <p>Let's style the text with some css. But first add a class to the div tag.</p>
+
+
+            <!--################################################-->
+
+                  <pre>
+          <xmp>
+    <div class="demo">
+      <h1>Amimating Text</h1>
+    </div>
+          </xmp>
+                   </pre>
+
+           <!--################################################-->
+
+                  <p>I've named it demo. Now for this tutorial I'm going to add a little css in between the head tags. This is just to put the text in the center of the screen.</p>
+
+           <!--################################################-->
+
+                
+                  <pre>
+            <xmp>
+                
+    <head>
+
+        <style>
+      .demo {
+        text-align: center;
+        color: #cddc38;
+        margin: 300px auto 0 auto;
+
+            }
+
+      body {
+        background-color: #212121;
+           }
+      } 
+        </style>
+
+    </head>
+
+            </xmp>        
+                  </pre>
+
+                   <!--################################################-->
+
+                   <p>After finishing, you'll se something like this.</p>
+                   <a href="https://i.imgur.com/Ez4wlUL.png"> <img id="shadow" class="img-fluid" src="https://i.imgur.com/Ez4wlUL.png" alt="img"></a><br>
+
+                   <i class="caption text-muted">Animated text</i> <br> <br><br>
+
+                   <p>Now it's time to add a little life to the text. So we are going to add the animation effects.</p>
+
+                   <h3>3. Add animate.css</h3>
+                    
+                    <p>Link the downloaded animate.css file to the head of the html file.</p>
+
+                    <!--##########################################################-->
+
+    <pre>
+    <xmp>
+    <head>
+
+      <link rel="stylesheet" type="text/css" href="animate.css">
+
+    </head>
+    </xmp>
+
+    </pre>
+                 <!--##########################################################-->
+
+                 <p>Now to add the animation effect, we have to add the .animated class to the element you want to animate. In my case the element is the h1 tag. Along with the class you have to declare the animation name. There are more than 50 animation effects. You'll find all the names in the Animate.css home page. <a href="https://daneden.github.io/animate.css/">Here</a>. The complete code will look like this.</p>
+                 
+
+                 <!--#######################################-->
+     <pre>
+     <xmp>            
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title></title>
+    
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <style type="text/css">
+    .demo {
+      text-align: center;
+      color: #cddc38;
+      margin: 300px auto 0 auto;
+
+    }
+
+    body {
+      background-color: #212121;
+    }
+    </style>
+    </head>
+    <body>
+   <div class="demo">
+      <h1 class="animated bounce">Animating Text</h1>
+   </div>
+   </body>
+   </html>             
+
+   </xmp>
+   </pre>
+
+               <!--#################################-->
+              <p>As you can see the name of the animation is "bounce". It will bounce the text on page load. Save the code and run it in the browser. That's it!! We are done.</p>
+              
+              <p>Now go and add other animation effects aswell. Play with your code. You can even create a JS button, and set the function to something like, when it is clicked, the element will animate like this.</p>
+
+              <p>So thanks for visiting my blog. Keep Coding!!</p>
+              </div>
+
+              <div class="text-center">
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="index.html#">Home</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://fb.com/thetinyhub">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/das_gauravjyoti">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/tinyhub">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Tiny Hub 2017</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+ 
+    </body>
+</html>
